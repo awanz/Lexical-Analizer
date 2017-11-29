@@ -197,7 +197,7 @@ int main()
         i++;
     }
     if (status == 0){
-        cout << "\t\t\t Tidak Valid" << endl;
+        cout << "       \t Tidak Valid" << endl;
     }else if(status == 1){
         cout << "       \t   == Valid ==" << endl;
     }
