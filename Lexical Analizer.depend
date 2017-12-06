@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1511919041 source:c:\users\hj51\documents\project\c++\lexical analizer\main.cpp
+1511961405 source:c:\users\hj51\documents\project\c++\lexical analizer\main.cpp
 	<iostream>
 	<string.h>
 	<cstdlib>
+	<conio.h>
 

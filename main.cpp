@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <cstdlib>
+#include <conio.h>
 
 using namespace std;
 
@@ -65,6 +66,7 @@ void lexical(char* a){
                 b[j] = '1';
                 j++;
             }else{
+                cout << a[i];
                 i++;
                 while(true){
                     if (isdigit(a[i]) || a[i] == 'E' || a[i] == ',' || a[i] == '+' || a[i] == '-'){
@@ -203,5 +205,6 @@ int main()
     }
     cout << "----------------------------------" << endl;
     cout << "==================================" << endl;
+    getch();
     return 0;
 }
